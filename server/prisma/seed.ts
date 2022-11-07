@@ -7,6 +7,7 @@ async function main() {
       name: 'John Doe',
       email: 'johndoe@gmail.com',
       avatarUrl: 'https://github.com/bfukumori.png',
+      googleId: 'bkbjkd463a4d65as4d',
     },
   });
 
@@ -28,7 +29,7 @@ async function main() {
     data: {
       date: '2022-11-03T12:00:00.476Z',
       firstTeamCountryCode: 'DE',
-      secondTeamCuntryCode: 'BR',
+      secondTeamCountryCode: 'BR',
     },
   });
 
@@ -36,7 +37,7 @@ async function main() {
     data: {
       date: '2022-11-04T18:00:00.476Z',
       firstTeamCountryCode: 'BR',
-      secondTeamCuntryCode: 'AR',
+      secondTeamCountryCode: 'AR',
 
       guesses: {
         create: {

@@ -8,7 +8,8 @@ import {
 
 import { THEME } from './src/styles/theme';
 import { Loading } from './src/components/Loading';
-import { Signin } from './src/screens/Signin';
+import { AuthContextProvider } from './src/contexts/AuthContext';
+import { Routes } from './src/routes';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -19,12 +20,14 @@ export default function App() {
 
   return (
     <NativeBaseProvider theme={THEME}>
-      {fontsLoaded ? <Signin /> : <Loading />}
-      <StatusBar
-        barStyle='light-content'
-        backgroundColor='transparent'
-        translucent
-      />
+      <AuthContextProvider>
+        {fontsLoaded ? <Routes /> : <Loading />}
+        <StatusBar
+          barStyle='light-content'
+          backgroundColor='transparent'
+          translucent
+        />
+      </AuthContextProvider>
     </NativeBaseProvider>
   );
 }
