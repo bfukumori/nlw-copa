@@ -17,7 +17,7 @@
     "country-list": "^2.2.0",
     "dayjs": "^1.11.6",
     "expo": "~46.0.16",
-    "expo-auth-session": "~3.7.1",
+    "expo-auth-session": "~3.7.4",
     "expo-font": "~10.2.0",
     "expo-random": "~12.3.0",
     "expo-status-bar": "~1.4.0",
@@ -33,7 +33,8 @@
     "react-native-screens": "~3.15.0",
     "react-native-svg": "12.3.0",
     "react-native-svg-transformer": "^1.0.0",
-    "react-native-web": "~0.18.7"
+    "react-native-web": "~0.18.7",
+    "expo-application": "~4.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

@@ -9,18 +9,18 @@ export function Signin() {
   const { signIn, isUserLoading } = useAuth();
 
   return (
-    <Center flex={1} bgColor='gray.900' padding={7}>
+    <Center flex={1} bgColor="gray.900" padding={7}>
       <Logo width={212} height={40} />
       <Button
-        title='Entrar com Google'
-        leftIcon={<Icon as={Fontisto} name='google' color='white' size='md' />}
+        title="Entrar com Google"
+        leftIcon={<Icon as={Fontisto} name="google" color="white" size="md" />}
         mt={12}
-        type='SECONDARY'
+        type="SECONDARY"
         onPress={signIn}
         isLoading={isUserLoading}
         _loading={{ _spinner: { color: 'white' } }}
       />
-      <Text color='white' textAlign='center' mt={4}>
+      <Text color="white" textAlign="center" mt={4}>
         Não utilizamos nenhuma informação além {'\n'} do seu e-mail para criação
         de sua conta.
       </Text>
