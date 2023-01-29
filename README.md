@@ -33,7 +33,7 @@
 
 ## About
 
-⚽ nlw-copa - Counter to use with Pomodoro technique.
+⚽ nlw-copa - App to make polls.
 
 Project developed during the NLW Copa Event from [Rocketseat](https://www.rocketseat.com.br).
 
